@@ -20,5 +20,7 @@ int main(int argc, char **argv)
 
 	printf("buf = %s\n",buf);
 
+	printf("bye bye ...");
+
 	return 0;
 }
