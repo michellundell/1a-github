@@ -10,6 +10,7 @@
 int main(int argc, char **argv)
 {
 	char buf[30]; /* a buffer that holds some characters */
+	char answer;
 
 	if( argc == 2) {
 		printf("%s\n",argv[1]);
@@ -20,7 +21,18 @@ int main(int argc, char **argv)
 
 	printf("buf = %s\n",buf);
 
-	printf("bye bye ...");
+	printf("C- for continue and N for nothing");
+	scanf("%s", &answer);
+
+    if(answer == 'C'){
+		printf("What do wou want to make?n");
+	}
+
+	if(answer == 'N'){
+		printf("bye bye ...");
+	}
+
+	
 
 	return 0;
 }
