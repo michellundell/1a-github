@@ -22,5 +22,7 @@ int main(int argc, char **argv)
 
 	printf("bye bye ...\n");
 
+	printf("Hello World!\n");
+
 	return 0;
 }
