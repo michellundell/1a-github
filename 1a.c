@@ -22,6 +22,8 @@ int main(int argc, char **argv)
 
 	printf("bye bye ...\n");
 
+	printf("Hello World!\n");
+	print("Sorry could not find the bug");
 	return 0;
 	
 }
